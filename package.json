@@ -1,0 +1,16 @@
+{
+  "name": "titan_backend",
+  "version": "1.0.0",
+  "description": "Titan Bank",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "\" Marc Laabs\",",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "http-status-codes": "^2.2.0",
+    "transactionmanager": "file:TransactionManager/transactionmanager-1.0.0.tgz"
+  }
+}
